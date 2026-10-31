@@ -1,0 +1,47 @@
+{
+  "dataset": "AG News — muestra de la cátedra",
+  "semilla": 42,
+  "documentos_entrenamiento_total": 8000,
+  "documentos_entrenamiento_interno": 6400,
+  "documentos_validacion": 1600,
+  "documentos_test": 2000,
+  "coincidencias_procesadas_train_test": 2,
+  "configuracion_seleccionada": "tfidf_10000_1_2",
+  "max_features": 10000,
+  "ngram_range": [
+    1,
+    2
+  ],
+  "clasificador": "LogisticRegression",
+  "solver": "lbfgs",
+  "C": 1.0,
+  "max_iter": 2000,
+  "f1_macro_validacion": 0.8857476521574335,
+  "metricas_test": [
+    {
+      "Evaluación": "Test completo",
+      "Noticias": 2000,
+      "Accuracy": 0.891,
+      "F1 macro": 0.8909829276426993,
+      "F1 weighted": 0.8909829276426992
+    },
+    {
+      "Evaluación": "Test sin coincidencias",
+      "Noticias": 1998,
+      "Accuracy": 0.8908908908908909,
+      "F1 macro": 0.8908767662629723,
+      "F1 weighted": 0.8908724199647274
+    }
+  ],
+  "version_python": "3.13.18",
+  "dependencias": {
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.6.1",
+    "matplotlib": "3.10.0",
+    "spacy": "3.8.18",
+    "tqdm": "4.67.3"
+  },
+  "modelo_spacy": "en_core_web_sm",
+  "version_modelo_spacy": "3.8.0"
+}

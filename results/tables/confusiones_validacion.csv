@@ -1,0 +1,13 @@
+﻿Categoría real,Predicción incorrecta,Noticias,Porcentaje de la clase real (%)
+Sci_Tech,Business,45,11.25
+Business,Sci_Tech,39,9.75
+Business,World,22,5.5
+World,Sports,16,4.0
+Sci_Tech,World,15,3.75
+World,Business,13,3.25
+World,Sci_Tech,10,2.5
+Sci_Tech,Sports,6,1.5
+Sports,Sci_Tech,5,1.25
+Business,Sports,4,1.0
+Sports,World,4,1.0
+Sports,Business,3,0.75
